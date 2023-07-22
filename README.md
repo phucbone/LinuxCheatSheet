@@ -227,3 +227,7 @@ File Path|Scope|File Use
 ~/.vimrc|user|vim config
 ~/.emacs|user|emacs config
 ~/.xinitrc|user|xmanager config
+
+[Back to CheatSheets Page](https://phucbone.github.io/Cheatsheets/)
+
+[Back to Main Page](https://phucbone.github.io/)
