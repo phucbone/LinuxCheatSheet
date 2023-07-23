@@ -1,9 +1,10 @@
 # Linux Cheatsheet
 This page presents a list of commonly used commands and config files for Linux.
 
-## Commands
+---
+# Commands
 
-### File & Directory Basics
+## File & Directory Basics
 
 ```shell
 # List files in the current directory.
@@ -49,7 +50,7 @@ find . -iname <filename-regex>
 find . -type f
 ```
 
-### File Content
+## File Content
 
 ```shell
 # Print file content.
@@ -71,7 +72,7 @@ tail -n <line-count> <filename>
 tail -f <filename>
 ```
 
-### Package & Compress
+## Package & Compress
 
 ```shell
 # Pack a directory into a tar file.
@@ -87,7 +88,7 @@ zip <zip-filename> file1 file2 file3 ...
 unzip <zip-filename>
 ```
 
-### Disk
+## Disk
 
 ```shell
 # Show free disk spaces for each block device.
@@ -100,7 +101,7 @@ du -h ./*
 lsblk
 ```
 
-### Process
+## Process
 
 ```shell
 # List process.
@@ -119,7 +120,7 @@ top
 htop
 ```
 
-### Networking
+## Networking
 
 ```shell
 # Download data from url.
@@ -138,7 +139,7 @@ ifconfig
 ping
 ```
 
-### User
+## User
 
 ```shell
 # Add a new user.
@@ -148,7 +149,7 @@ sudo adduser <username>
 sudo deluser <username>
 ```
 
-### Packages
+## Packages
 
 ```shell
 # Install packages on ubuntu or debian.
@@ -158,7 +159,7 @@ sudo apt install <package-name>[=<version>]
 sudo apt-get --purge remove <package-name>
 ```
 
-### System
+## System
 
 ```shell
 # Display information about your system.
@@ -177,7 +178,7 @@ sudo reboot now
 sudo shutdown -h now
 ```
 
-### Services
+## Services
 
 ```shell
 # List all units.
@@ -202,7 +203,7 @@ sudo systemctl status <service-name>
 sudo systemctl enable <service-name>
 ```
 
-### Configuration Files
+## Configuration Files
 
 File Path|Scope|File Use
 ---|---|---
