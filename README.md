@@ -206,27 +206,27 @@ sudo systemctl enable <service-name>
 
 File Path|Scope|File Use
 ---|---|---
-/boot/grub/grub.cfg|global|the generated grub file
-/etc/bash.bashrc|global|global config file for bash
-/etc/default/grub|global|config used by update-grub to generate /boot/grub/grub.cfg
-/etc/dhcp/dhclient.conf|global|DCHP client configs
-/etc/fstab|global|startup mount configs
-/etc/hostname|global|hostname
-/etc/hosts|global|static dhcp entries
-/etc/mime.types|global|MIME types and filename extensions associated with them
-/etc/motd|global|log in prompt message
-/etc/profile|global|commands for the login shell to execute
-/etc/resolv.conf|global|DNS server config
-/etc/sudoers|global|configs for sudoers
-/etc/timezone|global|local timezone
-~/.bashrc|user|bash startup config for non-login shell
-~/.editor|user|sets the default editor for the user
-~/.gitconfig|user|sets the default configs for git
-~/.profile|user|shell startup commands
-~/.ssh/config|user|user ssh config
-~/.vimrc|user|vim config
-~/.emacs|user|emacs config
-~/.xinitrc|user|xmanager config
+`/boot/grub/grub.cfg`|global|the generated grub file
+`/etc/bash.bashrc`|global|global config file for bash
+`/etc/default/grub`|global|config used by update-grub to generate `/boot/grub/grub.cfg`
+`/etc/dhcp/dhclient.conf`|global|DCHP client configs
+`/etc/fstab`|global|startup mount configs
+`/etc/hostname`|global|hostname
+`/etc/hosts`|global|static dhcp entries
+`/etc/mime.types`|global|MIME types and filename extensions associated with them
+`/etc/motd`|global|log in prompt message
+`/etc/profile`|global|commands for the login shell to execute
+`/etc/resolv.conf`|global|DNS server config
+`/etc/sudoers`|global|configs for sudoers
+`/etc/timezone`|global|local timezone
+`~/.bashrc`|user|bash startup config for non-login shell
+`~/.editor`|user|sets the default editor for the user
+`~/.gitconfig`|user|sets the default configs for git
+`~/.profile`|user|shell startup commands
+`~/.ssh/config`|user|user ssh config
+`~/.vimrc`|user|vim config
+`~/.emacs`|user|emacs config
+`~/.xinitrc`|user|xmanager config
 
 [Back to CheatSheets Page](https://phucbone.github.io/Cheatsheets/)
 
